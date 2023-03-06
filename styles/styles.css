@@ -1,0 +1,101 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    padding: 0%;
+    box-sizing: content-box;
+ 
+
+}
+
+body{
+
+    background-color: rgb(146 209 180);
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    padding-left: 1%;
+    font-size: 2rem;
+}
+h1{
+    margin-top: 0;
+}
+main{
+    width: 100%;
+    display: flex;
+}
+aside:first-child{
+    width: 15%;
+    padding: 4px;
+    padding-top: 18%;
+    margin-right: 8px;
+    padding-left: 3%;
+    font-size: 2rem;
+}
+span.pictore{
+    display: inline-block;
+    width: 40%;
+    padding: 10%;
+}
+
+span.pictore > img{
+    margin: auto;
+    width: 60%;
+    position: relative;
+
+}
+
+span.pictore > h3 {
+    margin-top: 50px;
+    color: black;
+    font-size: 10rem;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: .7;
+}
+h1,h2{
+    font-size: 2rem;
+}
+
+span.stats{
+    width: 45%;
+    padding-top: 20%;
+    padding-right: 8px;
+}
+section.iconcontainer > img {
+    width: 8%;
+    box-shadow: 1px 1px 2px #000000;
+    border-radius: 50px;
+    margin: 4px;
+}
+section.buttoncontainer{
+    padding: 8px;
+    border-left: 4px solid whitesmoke;
+    border-radius: 2px;
+    padding-right: 20%;
+}
+button{
+    background-color: white;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 8px;
+    border: none;
+
+}
+footer > p {
+    margin: 0;
+    width: 120px;
+    height: 120px;
+    padding-top: 0px;
+    padding-left: 2%;
+    font-size: 1rem;
+}
+p.region{
+    transform: rotate(270deg);
+}
